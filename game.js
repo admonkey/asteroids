@@ -748,6 +748,9 @@ Coin = function () {
     this.newValue();
   }
 
+  this.color = 'yellow';
+  this.solid = true;
+
 }
 Coin.prototype = new Sprite();
 
